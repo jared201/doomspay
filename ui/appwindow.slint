@@ -1,17 +1,20 @@
-import { Button, VerticalBox } from "std-widgets.slint";
+import { Button, VerticalBox, LineEdit, StandardButton } from "std-widgets.slint";
 
 export AppWindow := Window {
     property<int> counter: 42;
     callback request-increase-value();
-    VerticalBox { 
-        Text {
-            text: "Counter: \{counter}";
+    title: "Doomspay";
+    width: 300px;
+    VerticalBox {
+        LineEdit {
+           font-size: 14px;
+           placeholder-text: "Enter PIN";
+
         }
-        Button {
-            text: "Increase value";
-            clicked => { 
-                request-increase-value();
-            }
+        StandardButton{
+           kind: ok;
         }
+        StandardButton { kind: cancel;}
+
      }
 }
