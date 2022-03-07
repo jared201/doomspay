@@ -1,0 +1,2 @@
+Error running LSP server: unexpected message during shutdown: Ok(Notification(Notification { method: "textDocument/didClose", params: Object({"textDocument": Object({"uri": String("file:///Users/jared/projects/doomspay/ui/appwindow.slint")})}) }))
+Error running LSP server: unexpected message during shutdown: Ok(Notification(Notification { method: "textDocument/didClose", params: Object({"textDocument": Object({"uri": String("file:///Users/jared/projects/doomspay/ui/appwindow.slint")})}) }))

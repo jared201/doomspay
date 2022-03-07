@@ -6,15 +6,22 @@ export AppWindow := Window {
     title: "Doomspay";
     width: 300px;
     VerticalBox {
-        LineEdit {
+        TextInput {
            font-size: 14px;
-           placeholder-text: "Enter PIN";
+           text: "Enter PIN";
 
         }
         StandardButton{
            kind: ok;
+           background: cyan;
+           border-radius: 3px;
         }
-        StandardButton { kind: cancel;}
+        StandardButton {
+           kind: cancel;
+           border-radius: 3px;
+        }
 
      }
+
+
 }
