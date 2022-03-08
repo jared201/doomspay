@@ -8,12 +8,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c866ffa1-625a-44ee-b515-73140cca251c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/cat.jpg.license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/dog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/dog.jpg.license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/elephant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/elephant.jpg.license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/ink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/laptop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/moon_full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/night_mode.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/page_selection.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/power.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/print.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/printer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/replicate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/scan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/settings.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/snake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/snake.jpg.license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/images/usb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/mainpage.slint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/appwindow.slint" beforeDir="false" afterPath="$PROJECT_DIR$/ui/appwindow.slint" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Slint File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,8 +78,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ui" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="settings.editor.selected.configurable" value="ServerSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ui" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />

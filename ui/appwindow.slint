@@ -1,27 +1,18 @@
 import { Button, VerticalBox, LineEdit, StandardButton } from "std-widgets.slint";
+import { Page, ActionButton } from "mainpage.slint";
 
 export AppWindow := Window {
     property<int> counter: 42;
     callback request-increase-value();
     title: "Doomspay";
-    width: 300px;
-    VerticalBox {
-        TextInput {
-           font-size: 14px;
-           text: "Enter PIN";
+    width: 250px;
+    height: 200px;
+    ActionButton {
+         icon: @image-url("images/usb.svg");
+         text: "Plug in your hardware wallet";
 
-        }
-        StandardButton{
-           kind: ok;
-           background: cyan;
-           border-radius: 3px;
-        }
-        StandardButton {
-           kind: cancel;
-           border-radius: 3px;
-        }
+      }
 
-     }
 
 
 }
