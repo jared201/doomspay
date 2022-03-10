@@ -3,16 +3,18 @@ import { Page, ActionButton } from "mainpage.slint";
 
 export AppWindow := Window {
     property<int> counter: 42;
+    property<string> text: "Hardware Loading...";
     callback request-increase-value();
+    callback load-app();
     title: "Doomspay";
     width: 250px;
     height: 200px;
     ActionButton {
          icon: @image-url("images/usb.svg");
-         text: "Plug in your hardware wallet";
-
+         text: "Plugin your hardware wallet" ;
+         clicked => {
+                text = root.text;
+          }
       }
-
-
 
 }
