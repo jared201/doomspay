@@ -1,5 +1,5 @@
 import { Button, VerticalBox, LineEdit, StandardButton } from "std-widgets.slint";
-import { Page, ActionButton } from "mainpage.slint";
+import { Page, ActionButton, PayPage } from "mainpage.slint";
 
 export AppWindow := Window {
     property<int> counter: 42;
@@ -7,14 +7,19 @@ export AppWindow := Window {
     callback request-increase-value();
     callback load-app();
     title: "Doomspay";
-    width: 250px;
-    height: 200px;
+    width: 500px;
+    height: 400px;
     ActionButton {
          icon: @image-url("images/usb.svg");
-         text: "Plugin your hardware wallet" ;
+         text: "Plug in your hardware wallet" ;
          clicked => {
                 text = root.text;
+                visible = false;
+                PayPage.visible = true;
           }
       }
 
+    PayPage :=  PayPage {
+         visible: false;
+    }
 }
