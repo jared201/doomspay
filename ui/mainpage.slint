@@ -9,16 +9,42 @@ export Page := Rectangle {
        color: dodgerblue;
     }
 }
+Label := Text {
+    font-family: "Arial";
+    font-weight: 600;
+    font-size: 20px;
+    color: darkgreen;
+}
 
-PaymentDetails := GridLayout {
-     Row {
-        Text {
-             text: "Amount due: ";
-        }
-        LineEdit {
-             text: "0.005SATS";
-        }
-     }
+CustomTextBox := Rectangle {
+    border-radius: 25px;
+    border-color: red;
+    background: orange;
+    property <string> text;
+    padding-top: 20px;
+    padding-left: 50px;
+    Text {
+        font-size: 20px;
+        font-weight: 600;
+        color: darkgreen;
+        text: root.text;
+    }
+
+}
+
+PaymentDetails := Rectangle {
+    GridLayout {
+         spacing: 5px;
+         Row {
+            Label {
+                 text: "Amount due: ";
+            }
+            CustomTextBox {
+                 text: "0.005sats";
+            }
+         }
+
+    }
 }
 
 export PayPage := Rectangle {
@@ -37,10 +63,11 @@ export PayPage := Rectangle {
         }
         Button {
              border-radius: 25px;
-             border-width: 5px;
-             border-color: black;
+             border-width: 1px;
+             border-color: gray;
              background: cyan;
              text : "Pay Now";
+
         }
 
     }
@@ -76,7 +103,7 @@ export ActionButton := Rectangle {
             font-size: 10px * 1.375;
             font-weight: 800;
             horizontal-alignment: center;
-            color: black;
+            color: whitesmoke;
         }
     }
 
